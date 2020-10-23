@@ -9,7 +9,7 @@ public class CarInsurance {
 		basePremium = 500;
 	}
 	
-	/*
+	
 	public int checkCredentials(Customer customer)
 	{
 		//customer attributes
@@ -17,7 +17,7 @@ public class CarInsurance {
 		char customerSex = customer.getSex();
 		boolean customerIsMarried = customer.getIsMarried();
 		
-		//bussinnes policies 
+		//business policies 
 		boolean customerValidDriverLic = customer.getHasValidDriverLicense();
 		boolean isNotYoungEnough = customerAge > 80;
 		boolean isYoungSingleMale = (customerSex == 'M') && !customerIsMarried && (customerAge < 25);	
@@ -41,5 +41,5 @@ public class CarInsurance {
 		}	
 		return 1;
 	}
-	*/
+	
 }
