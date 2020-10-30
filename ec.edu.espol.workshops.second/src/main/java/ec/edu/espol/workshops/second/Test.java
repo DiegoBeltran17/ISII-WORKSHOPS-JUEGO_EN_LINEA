@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Test {
-	public static Scanner sc = new Scanner(System.in);
+	public static final Scanner sc = new Scanner(System.in, "UTF-8");
 	
 	public static void main(String args[])
 	{
@@ -25,7 +25,7 @@ public class Test {
  
                 switch (opcion) {
                     case 1:
-                    	Menu();
+                    	menu();
                         break;
                     case 2:
                     	System.out.println("Good Bye!!! ");
@@ -41,7 +41,7 @@ public class Test {
         }
  
 	}
-	public static void Menu()
+	public static void menu()
 	{
 		System.out.println("Write the age: ");
         int age = sc.nextInt();	
@@ -70,7 +70,7 @@ public class Test {
             	System.out.println(carInsurance.checkCredentials(validCustomer));
     		}	
         }else {
-        	Menu();
+        	menu();
         }
 	}
 }

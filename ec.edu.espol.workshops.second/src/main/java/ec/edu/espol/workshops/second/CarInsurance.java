@@ -2,7 +2,7 @@ package ec.edu.espol.workshops.second;
 
 public class CarInsurance {
 	
-	private int basePremium;
+	public int basePremium;
 	
 	public CarInsurance()
 	{
