@@ -8,8 +8,7 @@ public class CarInsurance {
 	{
 		basePremium = 500;
 	}
-	
-	/*
+
 	public int checkCredentials(Customer customer)
 	{
 		//customer attributes
@@ -41,5 +40,4 @@ public class CarInsurance {
 		}	
 		return 1;
 	}
-	*/
 }

@@ -1,11 +1,11 @@
 package ec.edu.espol.workshops.second;
 
 public class Customer {
-	private int age;
-	private char sex;
-	private boolean isMarried;
-	private boolean hasValidDriverLicense;
-	public Customer(int age, char sex, boolean isMarried, boolean hasValidDriverLicense)
+	private int age; //The age of the customer
+	private char sex; //M for male, F for female
+	private boolean isMarried; //true if is married, false for single
+	private boolean hasValidDriverLicense; //His driver license is valid
+	public Customer(int age, char sex, boolean isMarried, boolean hasValidDriverLicense) //Customer constructor for CarInsurance
 	{
 		this.age = age;
 		this.sex = sex;

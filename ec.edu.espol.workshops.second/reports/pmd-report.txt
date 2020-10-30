@@ -1,0 +1,211 @@
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m3:45[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m3:45[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mImmutableField: Private field 'basePremium' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mImmutableField: Private field 'basePremium' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mSingularField
+[0;32m    msg:  [0mSingularField: Perhaps 'basePremium' could be replaced by a local variable.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mSingularField
+[0;32m    msg:  [0mSingularField: Perhaps 'basePremium' could be replaced by a local variable.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mUnusedPrivateField
+[0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'basePremium'.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mUnusedPrivateField
+[0;32m    msg:  [0mUnusedPrivateField: Avoid unused private fields such as 'basePremium'.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m7:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m7:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m12:44[0m
+[0;32m    rule: [0mCommentSize
+[0;32m    msg:  [0mCommentSize: Comment is too large: Too many lines
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m12:44[0m
+[0;32m    rule: [0mCommentSize
+[0;32m    msg:  [0mCommentSize: Comment is too large: Too many lines
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m23:23[0m
+[0;32m    rule: [0mCommentSize
+[0;32m    msg:  [0mCommentSize: Comment is too large: Line too long
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m23:23[0m
+[0;32m    rule: [0mCommentSize
+[0;32m    msg:  [0mCommentSize: Comment is too large: Line too long
+[0;32m    code: [0mnull
+
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m3:50[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m3:50[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m3:50[0m
+[0;32m    rule: [0mDataClass
+[0;32m    msg:  [0mDataClass: The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m3:50[0m
+[0;32m    rule: [0mDataClass
+[0;32m    msg:  [0mDataClass: The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=7, WMC=8)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m4:4[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m4:4[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m5:5[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m6:6[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mImmutableField: Private field 'hasValidDriverLicense' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mImmutableField: Private field 'hasValidDriverLicense' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m8:14[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Customer.java[0m:[0;36m8:14[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/second/Test.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Test.java[0m:[0;36m3:15[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Test.java[0m:[0;36m3:15[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Test.java[0m:[0;36m4:14[0m
+[0;32m    rule: [0mCommentSize
+[0;32m    msg:  [0mCommentSize: Comment is too large: Too many lines
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/Test.java[0m:[0;36m4:14[0m
+[0;32m    rule: [0mCommentSize
+[0;32m    msg:  [0mCommentSize: Comment is too large: Too many lines
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+ec.edu.espol.workshops.second.Test : 2
+ec.edu.espol.workshops.second.CarInsurance : 5
+ec.edu.espol.workshops.second.Customer : 6
+[1;33m*[0m warnings: [1;37m40[0m

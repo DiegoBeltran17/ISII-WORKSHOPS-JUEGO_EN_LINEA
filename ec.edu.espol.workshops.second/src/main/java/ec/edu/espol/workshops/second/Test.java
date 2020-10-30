@@ -1,7 +1,7 @@
 package ec.edu.espol.workshops.second;
 
 public class Test {
-	/*
+	
 	public static void main(String args[])
 	{
 		Customer validCustomer = new Customer(22, 'M', true, true);
@@ -11,5 +11,5 @@ public class Test {
 	    System.out.println(carInsurance.checkCredentials(validCustomer));
 	    System.out.println(carInsurance.checkCredentials(noValidCustomer));
 	}
-	*/
+	
 }
