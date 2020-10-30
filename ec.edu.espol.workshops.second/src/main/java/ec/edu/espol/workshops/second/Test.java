@@ -1,9 +1,7 @@
 package ec.edu.espol.workshops.second;
 
 public class Test {
-	
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 		Customer validCustomer = new Customer(22, 'M', true, true);
 	    Customer noValidCustomer = new Customer(30, 'F', false, false);
 	
