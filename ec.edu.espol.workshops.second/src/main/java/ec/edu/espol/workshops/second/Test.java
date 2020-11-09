@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Test {
 	public static final Scanner sc = new Scanner(System.in, "UTF-8");
 	
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 		//Customer validCustomer = new Customer(22, 'M', true, true); Example Valid Customer
 	    //Customer noValidCustomer = new Customer(30, 'F', false, false); Example Nor Valid Customer
 
