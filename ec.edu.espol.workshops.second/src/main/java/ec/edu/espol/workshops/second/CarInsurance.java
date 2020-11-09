@@ -17,10 +17,10 @@ public class CarInsurance {
 		//business policies 
 	boolean customerValidDriverLic = customer.getHasValidDriverLicense();
 	boolean isNotYoungEnough = customerAge > 80;
-	boolean isYoungSingleMale = (customerSex == 'M') && !customerIsMarried && (customerAge < 25);	
+	boolean isYoungSingleMale = (customerSex == 'M') && !customerIsMarried && (customerAge > 18 && customerAge < 25);	
 	boolean isFemaleOrMarried = (customerSex == 'F') || customerIsMarried;
 	boolean isYoungEnough = (customerAge > 45) && (customerAge < 65);
-		
+	
 	//Logic
 	if(isNotYoungEnough || !customerValidDriverLic)
 		return -1;

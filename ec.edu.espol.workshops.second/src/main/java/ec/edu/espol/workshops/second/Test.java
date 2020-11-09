@@ -44,12 +44,14 @@ public class Test {
 	{
 		System.out.println("Write the age: ");
         int age = sc.nextInt();	
-        
         System.out.println("Write the sex (M/F): ");
-        char sex = sc.next().charAt(0);
+        //char sex = sc.next().charAt(0);
+        String sex2 = sc.next();
+        String[] arrSex = sex2.split(""); 
+        char sex = sex2.charAt(0);
         char m = 'M';
         char f = 'F';
-        if(sex == m || sex == f) {
+        if( (sex == m && arrSex.length == 1) || (sex == f && arrSex.length == 1)) {
         	System.out.println("Is married?(true/false): ");
             boolean isMarried = sc.nextBoolean();
             
