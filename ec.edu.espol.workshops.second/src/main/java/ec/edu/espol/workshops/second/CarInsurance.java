@@ -33,6 +33,8 @@ public class CarInsurance {
 	}else if(isYoungEnough)
 	{
 		basePremium -= 100;
+	}else if(customerAge >= 65 && customerAge <= 80){
+		basePremium -= 150; //Assume a discount
 	}else {
 		return -1;
 	}	

@@ -43,7 +43,16 @@ public class Test {
 	public static void menu()
 	{
 		System.out.println("Write the age: ");
-        int age = sc.nextInt();	
+        String tmpAge = sc.next();
+        while(tmpAge == "" || !isDigit(tmpAge))
+        {
+        	System.out.println("Please enter a valid number for age: ");
+        	tmpAge = sc.next();
+        }
+		
+		//int age = sc.nextInt();
+        int age = Integer.parseInt(tmpAge);
+        
         System.out.println("Write the sex (M/F): ");
         //char sex = sc.next().charAt(0);
         String sex2 = sc.next();
@@ -53,11 +62,24 @@ public class Test {
         char f = 'F';
         if( (sex == m && arrSex.length == 1) || (sex == f && arrSex.length == 1)) {
         	System.out.println("Is married?(true/false): ");
-            boolean isMarried = sc.nextBoolean();
-            
+        	String tmpIsMarried = sc.next(); 
+        	while(!tmpIsMarried.equals("true") && !tmpIsMarried.equals("false")) {
+        		System.out.println("Please enter (true/false) to know if you are married: ");
+        		tmpIsMarried = sc.next(); 
+        	}
+        	
+            //boolean isMarried = sc.nextBoolean();
+            boolean isMarried = Boolean.parseBoolean(tmpIsMarried);
             System.out.println("Has licensed?(true/false): ");
-            boolean hasValidDriverLicense = sc.nextBoolean();
             
+            String tmpValidLicense = sc.next(); 
+            while(!tmpValidLicense.equals("true") && !tmpValidLicense.equals("false")) {
+        		System.out.println("Please enter (true/false) to know if you have a valid license: ");
+        		tmpValidLicense = sc.next(); 
+        	}
+            //boolean hasValidDriverLicense = sc.nextBoolean();
+            boolean hasValidDriverLicense = Boolean.parseBoolean(tmpValidLicense);
+            		
             Customer validCustomer = new Customer(age, sex, isMarried, hasValidDriverLicense);
             CarInsurance carInsurance = new CarInsurance();
             int valid = carInsurance.checkCredentials(validCustomer);
@@ -73,5 +95,17 @@ public class Test {
         }else {
         	menu();
         }
+	}
+	
+	public static boolean isDigit(String cadena)
+	{
+		boolean tmpValid = true;
+		for(int i = 0; i < cadena.length(); i++)
+		{
+			if(!Character.isDigit(cadena.charAt(i)))
+				tmpValid = false;
+		}
+		
+		return tmpValid;
 	}
 }
