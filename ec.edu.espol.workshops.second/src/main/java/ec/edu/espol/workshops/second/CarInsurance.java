@@ -5,7 +5,7 @@ public class CarInsurance {
 	public int basePremium;
 	
 	public CarInsurance(){
-		basePremium = 500;}
+		basePremium = 600;}
 	
 	
 	public int checkCredentials(Customer customer){
