@@ -21,8 +21,10 @@ public class CarInsurance {
 		boolean customerValidDriverLic = customer.getHasValidDriverLicense();
 		boolean isNotYoungEnough = customerAge > 80;
 		boolean isYoungSingleMale = (customerSex == 'M') && !customerIsMarried && (customerAge < 25);	
+		boolean isYoungMaleNewReq = (customerSex == 'M') && (customerAge > 25 && customerAge < 45);
 		boolean isFemaleOrMarried = (customerSex == 'F') || customerIsMarried;
 		boolean isYoungEnough = (customerAge > 45) && (customerAge < 65);
+		
 		
 		//Logic
 		if(isNotYoungEnough || !customerValidDriverLic)
@@ -33,7 +35,11 @@ public class CarInsurance {
 		}else if(isYoungSingleMale)
 		{
 			basePremium += 1500;
-		}else if(isYoungEnough)
+		}else if(isYoungMaleNewReq)
+		{
+			basePremium -= 100;
+		}
+		else if(isYoungEnough)
 		{
 			basePremium -= 100;
 		}else {
