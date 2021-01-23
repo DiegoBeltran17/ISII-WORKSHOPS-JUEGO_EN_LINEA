@@ -61,13 +61,13 @@ public class Test {
             CarInsurance carInsurance = new CarInsurance();
             int valid = carInsurance.checkCredentials(validCustomer);
             
-            if(valid == 1)
+            if(valid != -1)
     		{
             	System.out.println("Valid Customer!!");
-            	System.out.println(carInsurance.checkCredentials(validCustomer));
+            	System.out.println("Base Premium:"+valid);
     		}else {
     			System.out.println("Not Valid Customer!!");
-            	System.out.println(carInsurance.checkCredentials(validCustomer));
+            	System.out.println(valid);
     		}	
         }else {
         	Menu();
